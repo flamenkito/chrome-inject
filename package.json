@@ -1,0 +1,26 @@
+{
+  "name": "chrome-inject",
+  "version": "0.0.1",
+  "description": "Chrome extension to inject custom scripts into a webpage.",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/votuscode/chrome-inject.git"
+  },
+  "keywords": [
+    "chrome"
+  ],
+  "author": "votuscode@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/votuscode/chrome-inject/issues"
+  },
+  "homepage": "https://github.com/votuscode/chrome-inject#readme",
+  "devDependencies": {
+    "@types/chrome": "^0.0.190",
+    "prettier": "^2.6.2"
+  }
+}
