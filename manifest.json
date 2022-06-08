@@ -1,0 +1,24 @@
+{
+  "name": "Chrome Inject",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "description": "Let's inject some custom JavaScript!",
+  "homepage_url": "https://github.com/votuscode",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://*/*",
+    "http://*/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html"
+}
